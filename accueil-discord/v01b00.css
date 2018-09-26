@@ -1,0 +1,53 @@
+/* Reset #################################################################### */
+html{height:100%;font-size:100%;margin:0;padding:0;}
+body{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:0.8em;margin:0;padding:0;height:100%;min-height:100%;text-align:left;cursor:default;background:#000;color:#BBB}
+h1,h2,p{margin:0;padding:0;font-weight:normal}
+a{word-wrap:break-word;font-weight:bold;color:#FFF}
+a:link,a:visited,a:hover,a:active{text-decoration:none;cursor:pointer}
+hr{border:0;height:0;margin:0;padding:0;clear:both}
+/* ########################################################################## */
+
+.header .normlFrance{height:100px;background:url("../elements/discord.png") #0198b5 center center no-repeat;padding-bottom: 10px;}
+.header .discord{height:100px;background:url("../elements/NORMLFrance-blanc.png") #c8442b top center no-repeat;padding-top: 10px;}
+.plus{position:absolute;top:0;width:100%;height:200px;}	
+h1{position:absolute;text-indent:-9999px;}
+h2{padding:1em}
+.content p{padding:0 1.5em 1.5em}
+.content .discord{background:#222;}
+.content .normlFrance{background:#333;}
+.link{font-size:1.5em;text-align:center}
+.link a{display:block;background:#FFF;color:#333;padding:30px 1em}
+.link a:hover{text-decoration:none}
+
+@media screen and (min-width: 640px){
+	
+	body{font-size:0.9em;background:url("../elements/fond.gif") #222 center 0 repeat-y;}
+	.discord{width:50%;text-align:right}
+	.normlFrance{width:50%;float:right}
+	.header{position:absolute;top:0;width:100%;}
+	.header .discord{height:100px;background:url("../elements/discord.png") #00A437 right center no-repeat;}
+	.header .normlFrance{height:100px;background:url("../elements/NORMLFrance-blanc.png") #67C72C left center no-repeat;}
+	.plus{height:100px}
+	.content{padding:250px 0 100px}
+	.content .discord,
+	.content .normlFrance{background:none}
+	.content a:hover{text-decoration:underline}
+	.link{font-size:1em;position:absolute;top:180px;width:100%}
+	.link a{display:inline;border-radius:4px;padding:1em}
+	
+}
+
+@media screen and (min-width:1224px){
+	
+	.discord p{width:512px;float:right}
+	.normlFrance p{width:512px}
+}
+
+@media screen and (min-width:1680px){
+	
+	body{background:#000}
+	.header{margin:0 auto;width:1680px;}
+	.link{width:1680px;}
+	.global{height:100%;min-height:100%;margin:0 auto;width:1680px;background:url("../elements/fond.gif") #222 center 0 repeat-y;}
+	
+}
